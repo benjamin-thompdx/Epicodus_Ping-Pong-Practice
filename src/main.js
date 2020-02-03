@@ -3,6 +3,7 @@
 //--> This import statement consists of a few key things: what we are importing from ping-pong.js (the pingPong function) and where we are importing it from. We need the path and file name. Since the file is in the same directory, it's easy to access.
 
 import { pingPong } from './ping-pong';
+import './styles.css';
 
 $(document).ready(function() {
   $('#ping-pong-form').submit(function(event) {
